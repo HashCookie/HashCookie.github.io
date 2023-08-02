@@ -316,7 +316,10 @@ img {
 }
 
 .home__blob-img {
-  width: 220px;
+  width: 400px;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
 }
 
 .home__data {
@@ -941,7 +944,7 @@ img {
   }
   .home__img {
       order: 1;
-      justify-self: center;
+      justify-self: right;
   }
 
   .about__container,

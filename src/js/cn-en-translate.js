@@ -3,7 +3,7 @@ $(document).ready(function () {
     var defaultLang = "en";
     $("[i18n]").i18n({
         defaultLang: defaultLang,
-        filePath: "/responsive-portfolio-website/src/i18n/",//路径配置
+        filePath: "src/i18n/",//路径配置
         filePrefix: "i18n_",
         fileSuffix: "",
         forever: true,
@@ -21,7 +21,7 @@ $(document).ready(function () {
 
         $("[i18n]").i18n({
             defaultLang: a,
-            filePath: "/responsive-portfolio-website/src/i18n/",
+            filePath: "src/i18n/",
         });
 
     });
